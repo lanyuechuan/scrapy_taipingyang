@@ -1,0 +1,13 @@
+*.py[cod]
+.idea/
+__pycache__/
+
+*.log
+
+ips.txt
+test.py
+amazon.py
+boss.py
+fbs.py
+qingnianwang.py
+zhiyouji.py
