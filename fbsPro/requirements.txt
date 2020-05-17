@@ -1,0 +1,4 @@
+redis
+pymongo
+scrapy
+scrapy_redis
