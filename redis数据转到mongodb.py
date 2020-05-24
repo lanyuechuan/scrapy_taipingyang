@@ -4,11 +4,11 @@
 # @File     : 连接redis.py
 from pymongo import MongoClient
 # 建立连接,我是docker跑的8004端口映射到mnogod的默认端口27017
-client = MongoClient(host='120.27.242.29',port=8004)
+client = MongoClient(host='0.0.0.0',port=8004)
 collection = client['movie']['chuan']
 
 import redis
-conn = redis.Redis(host='120.27.242.29', password='lyc758520asd')
+conn = redis.Redis(host='0.0.0.0.', password='11111111111111111')
 
 data_list = conn.lrange('fbs:items', 0, 2000)
 i = 1
